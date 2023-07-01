@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Montserrat&family=Open+Sans&family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("Images/bg-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin: 0 20px;
+}
+
+.active {
+    color: green;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.p-3 {
+    position: relative;
+}
+
+.display-img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.display-img:hover {
+    position: relative;
+    bottom: 10px;
+}
+
+.div-texts {
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+}
+
+.div-texts > h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.div-texts > p {
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.div-texts > button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
